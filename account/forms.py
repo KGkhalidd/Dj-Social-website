@@ -20,10 +20,7 @@ class ProfileEditForm(forms.ModelForm):
         fields = ['date_of_birth', 'photo']
 
 
-class LoginForm(forms.Form):
-    username= forms.CharField()
-    password= forms.CharField(widget= forms.PasswordInput)
-
+#to make visitors create user account
 class UserRegistrationForm(forms.ModelForm):
     password = forms.CharField(label='Password', widget=forms.PasswordInput)
     password2 = forms.CharField(label='Repeat password', widget=forms.PasswordInput)
@@ -43,3 +40,8 @@ class UserRegistrationForm(forms.ModelForm):
         if User.objects.filter(email=data).exists():
             raise forms.ValidationError('Email already in use.')
         return data
+    
+
+class LoginForm(forms.Form):
+    username= forms.CharField()
+    password= forms.CharField(widget= forms.PasswordInput)
