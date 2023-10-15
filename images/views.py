@@ -19,7 +19,7 @@ def image_create(request):
             new_image.user = request.user
             new_image.save()
             messages.success(request, 'Image saved successfully')
-            return redirect(new_image.get_absolute_url()) # get_absolute not done yet
+            return redirect(new_image.get_absolute_url())
     else:
         form = ImageCreateForm(data=request.GET) #data=request.GET u can remove it
     return render(request, 'images/image/create.html', {'form':form})
