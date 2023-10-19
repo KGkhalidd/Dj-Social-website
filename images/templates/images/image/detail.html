@@ -28,7 +28,11 @@
             {% if user.profile.photo %}
             <img src="{{ user.profile.photo.url }}">
             {% endif %}
+            {% if usr.first_name %}
             <p>{{ user.first_name }}</p>
+            {% else %}
+            <p>{{ user.username }}</p>
+            {% endif %}
         </div>
         {% empty %}
         Nobody likes this image yet.

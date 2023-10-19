@@ -2,6 +2,7 @@ from django.db import models
 from django.conf import settings
 from django.utils.text import slugify
 from django.urls import reverse
+
 # Create your models here.
 
 class Image(models.Model):
