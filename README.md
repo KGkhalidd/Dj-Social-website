@@ -24,10 +24,10 @@ pip install -r requirements.txt
 
 1. Migrate the Database 
 ```sh
-manage.py migrate
+python manage.py migrate
 ```
 
 2. Run Server 
 ```sh
-manage.py runserver
+python manage.py runserver
 ```
