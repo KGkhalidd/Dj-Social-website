@@ -1,5 +1,5 @@
 # Dj-Social-website
-## Welcome to Django Social Website
+This social website project is a comprehensive web application developed with Django, designed to connect users, facilitate image sharing, and provide a seamless social networking experience. It encompasses a range of features and functionalities to enhance user engagement and interaction.
 
 ### Installation
 
