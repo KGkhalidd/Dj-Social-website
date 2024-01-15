@@ -1,5 +1,32 @@
 # Dj-Social-website
-This social website project is a comprehensive web application developed with Django, designed to connect users, facilitate image sharing, and provide a seamless social networking experience. It encompasses a range of features and functionalities to enhance user engagement and interaction.
+**Project Description:**
+Developed a dynamic social web application using Python and Django, seamlessly connecting users for enhanced social networking. This comprehensive platform facilitates image sharing and incorporates key features to boost user engagement.
+
+**Key Features:**
+- **User Authentication:** Implemented a secure authentication system, encompassing login, logout, change password, and password reset functionalities.
+- **User Registration and Profiles:** Enabled user registration with extended profiles featuring photos and birthdates.
+- **Social Integration:** Integrated social authentication options, allowing users to sign in via Facebook, Twitter, or Google accounts.
+- **Image Bookmarking:** Users can bookmark and share images from diverse sources, curating personalized collections.
+- **Content Importing:** Facilitated seamless content importing from other websites, simplifying content sharing across the web.
+- **User Interactions:** Implemented 'like/unlike' functionality for images shared by others, promoting user engagement.
+- **User Tracking System:** Established a comprehensive tracking system for users to follow each other and receive real-time updates on activities, utilizing a generic activity stream application.
+- **Query Optimization:** Utilized select_related and prefetch_related techniques to enhance database query performance.
+- **Debugging Tools:** Integrated Django Debug Toolbar for efficient debugging during development.
+- **Redis Integration:** Leveraged Redis, a high-performance key-value store, for counting image views and managing rankings efficiently.
+
+**Technologies Used:**
+- Python
+- Django
+- Messages Framework
+- Python Social Authentication
+- HTML
+- CSS
+- Pillow
+- Extensions
+- Requests
+- JavaScript
+- Easy-Thumbnails
+- Redis
 
 ### Installation
 
